@@ -25,8 +25,6 @@ jobs:
           ls
 
       - name: Deploy   # 部署
-        run: |
-          ls
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.ACCESS_TOKEN }}
