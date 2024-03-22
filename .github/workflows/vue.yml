@@ -22,11 +22,7 @@ jobs:
           cd DanZhao_Website
           npm install
           npm run build
-          ls
-          cd ..
-          ls
-          pwd
-
+          mv dist/ ../
       - name: Deploy   # 部署
         uses: JamesIves/github-pages-deploy-action@v4
         with:
