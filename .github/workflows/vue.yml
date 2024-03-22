@@ -23,6 +23,8 @@ jobs:
           npm install
           npm run build
           ls
+          cd ..
+          ls
 
       - name: Deploy   # 部署
         uses: JamesIves/github-pages-deploy-action@v4
