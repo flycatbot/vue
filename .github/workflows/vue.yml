@@ -25,6 +25,7 @@ jobs:
           ls
           cd ..
           ls
+          pwd
 
       - name: Deploy   # 部署
         uses: JamesIves/github-pages-deploy-action@v4
